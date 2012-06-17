@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Youm7pocActivity!</string>
+    <string name="app_name">Youm7poc</string>
+    <string name="urgentnews">اخر الاخبار</string>
+    <string name="span1"></string>
+    <string name="span2"></string>
+    <string name="span3"></string>
+     <string name="NewsBriefblock">newsBriefBlock</string>
+      <string name="NewsBriefImg">newsBriefImg</string>
+       <string name="NewslistContentData">newsListContentData</string>
+        <string name="SectionTop">sectionTop</string>
+         <string name="SectiontopImg">sectionTopImg</string>
+          <string name="SectionTopData">sectionTopData</string>
+           <string name="spadn3"></string>
+            <string name="spasn3"></string>
+         <string name="newsimageaccess">news image</string>
+</resources>

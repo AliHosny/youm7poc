@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FfFfFf">
+    
+
+     <RelativeLayout
+        android:id="@+id/navig"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:background="#FFFFFF">
+        
+        <Button
+            android:id="@+id/youm7"
+            android:clickable="true"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/logo"
+              android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#444444" 
+        android:layout_height="3dip"
+        android:id="@+id/greyline"
+        >
+        
+    </LinearLayout>
+     <TextView 
+         android:id="@+id/newshead"
+        android:background="#F0F0F0"
+        android:textColor="#DE2323"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:textSize="20sp"
+         android:paddingRight="10dip"
+         android:layout_marginTop="3dip"
+        android:textStyle="bold"
+        android:paddingBottom="6dip"
+         android:paddingLeft="7dip"
+         android:paddingTop="7dip"
+        
+        />
+      <TextView 
+         android:id="@+id/newsdate"
+        android:background="#F0F0F0"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:textSize="14sp"
+         android:paddingRight="10dip"
+         
+      
+        android:paddingBottom="7dip"
+         android:paddingLeft="7dip"
+         
+        
+        />
+     <ScrollView android:id="@+id/scrollvus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="#F0F0F0"
+      
+        android:scrollbars="none"
+      android:layout_marginTop="3dip">
+         
+         <LinearLayout 
+       android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+       
+         
+         
+         
+     
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="170dip"
+        android:id="@+id/newsimagesingle"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="3dip"
+        android:contentDescription="@string/newsimageaccess"
+         />
+    <TextView 
+        android:background="#F0F0F0"
+        android:textColor="#000000"
+        android:id="@+id/newscontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dip"
+         android:paddingLeft="7dip"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingTop="10dip"
+ 
+        />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

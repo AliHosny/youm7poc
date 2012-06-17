@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newsholder1"
+    android:layout_width="fill_parent"
+   android:background="#FFFFFF"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   
+    
+    <RelativeLayout
+        android:id="@+id/navig"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical" 
+        android:background="#FFFFFF"
+        >
+        
+        <Button
+            android:id="@+id/youm7"
+            android:clickable="true"
+            android:layout_width="150dip"
+            android:layout_height="40dip"
+           
+            android:onClick="refresh"
+            android:background="@drawable/logo"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+<TextView 
+    android:text="@string/urgentnews"
+    android:layout_width="fill_parent"
+    android:layout_height="35dip"
+    android:textColor="#FFFFFF"
+    android:background="#444444"
+    android:gravity="center_horizontal"
+    android:textSize="20sp"
+    android:layout_marginBottom="3dip"
+    
+     />
+    <ScrollView
+
+        android:id="@+id/scrollvus"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.84"
+        android:background="#FFFFFF"
+        android:scrollbars="none"
+      android:layout_marginTop="14dip"
+       >
+        
+       
+        <LinearLayout
+            android:id="@+id/newsholder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            >
+            <TableLayout 
+                android:id="@+id/newstable"
+                android:orientation="vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                
+                >
+               
+                
+                
+                
+            </TableLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
